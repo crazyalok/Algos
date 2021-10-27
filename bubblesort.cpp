@@ -36,6 +36,7 @@ int main()
     int n = sizeof(arr)/sizeof(arr[0]);  
     bubbleSort(arr, n);  
     cout<<"Sorted array: "<<endl;  
-    printArray(arr, n);  
+    printArray(arr, n); 
+  printf("yes");
     return 0;  
 }  
